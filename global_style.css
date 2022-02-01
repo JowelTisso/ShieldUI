@@ -1,0 +1,80 @@
+/* import */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+/* Generic */
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #ff6363;
+  --secondary-color: #ffab76;
+  --shade-1: #fffda2;
+  --shade-2: #baffb4;
+  --shade-2-1: #4ade80;
+  --text-color: #353749;
+  --bg-color: #fafafa;
+}
+
+/* Container */
+
+body {
+  /* background-color: var(--shade-2); */
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-heading {
+  color: var(--primary-color);
+  font-size: 6rem;
+}
+
+.hero-btn {
+  width: 15rem;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: var(--bg-color);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.btn-secondary {
+  background-color: var(--shade-2);
+  border: 2px solid var(--shade-2);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--shade-2-1);
+  color: var(--bg-color);
+}
+
+/* Utils */
+.mg-top-10x {
+  margin-top: 10rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
