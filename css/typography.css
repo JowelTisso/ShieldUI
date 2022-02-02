@@ -1,0 +1,75 @@
+/* headings */
+.h1 {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  font-weight: 900;
+}
+
+.h2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+}
+
+.h4 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+}
+
+.h5 {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+/* text */
+
+.t1 {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+}
+
+.t2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.t3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.t4 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.t5 {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+
+/* font-weight */
+
+.fw-1x {
+  font-weight: 300;
+}
+.fw-2x {
+  font-weight: 400;
+}
+.fw-3x {
+  font-weight: 600;
+}
+.fw-4x {
+  font-weight: 700;
+}
+.fw-5x {
+  font-weight: 900;
+}

@@ -1,0 +1,13 @@
+/* border-radius */
+.br-rd-1x {
+  border-radius: 5px;
+}
+.br-rd-2x {
+  border-radius: 10px;
+}
+.br-rd-3x {
+  border-radius: 15px;
+}
+.br-rd-full {
+  border-radius: 999px;
+}

@@ -1,5 +1,6 @@
 /* import */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url(./css/shield.css);
 
 /* Generic */
 
@@ -7,39 +8,49 @@
   font-family: "Noto Sans", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
 }
 
 html {
   font-size: 62.5%;
-}
-
-:root {
-  --primary-color: #ff6363;
-  --secondary-color: #ffab76;
-  --shade-1: #fffda2;
-  --shade-2: #baffb4;
-  --shade-2-1: #4ade80;
-  --text-color: #353749;
-  --bg-color: #fafafa;
+  scroll-behavior: smooth;
 }
 
 /* Container */
 
-body {
-  /* background-color: var(--shade-2); */
-}
-
 .hero {
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
+
+.installation {
+  height: 100vh;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* typography */
 
 .hero-heading {
   color: var(--primary-color);
   font-size: 6rem;
 }
+
+/* Icon */
+
+.shield-icon {
+  color: var(--primary-color);
+}
+
+/* button */
 
 .hero-btn {
   width: 15rem;
@@ -71,10 +82,15 @@ body {
 }
 
 /* Utils */
-.mg-top-10x {
-  margin-top: 10rem;
-}
 
 .pointer {
   cursor: pointer;
+}
+
+.code-snippet {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 2rem 2rem 0 2rem;
+  transform: scale(1);
+  overflow: auto;
 }
