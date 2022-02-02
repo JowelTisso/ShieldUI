@@ -1,0 +1,49 @@
+/* Avatar */
+.avatar {
+  height: 9rem;
+  width: 9rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar-l {
+  height: 10rem;
+  width: 10rem;
+}
+
+.avatar-m {
+  height: 9rem;
+  width: 9rem;
+}
+
+.avatar-s {
+  height: 8rem;
+  width: 8rem;
+}
+
+/* Avatar with status */
+
+.avatar-status-container {
+  position: relative;
+}
+
+.avatar-status {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.avatar-online {
+  background-color: var(--green-color);
+}
+
+.avatar-offline {
+  background-color: var(--gray-color);
+}
+
+.avatar-dnd {
+  background-color: var(--red-color);
+}

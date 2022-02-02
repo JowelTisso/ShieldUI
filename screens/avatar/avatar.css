@@ -1,0 +1,53 @@
+/* container */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  width: 30rem;
+  height: 80vh;
+  background-color: var(--bg-color);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  height: 80vh;
+  width: 100%;
+  overflow: auto;
+}
+
+.avatar-container {
+  display: inline-block;
+}
+
+/* links */
+
+.side-nav-item {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  width: 15rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.side-nav-item:hover {
+  background-color: var(--primary-color-shade-1);
+  color: var(--primary-color);
+}
+
+/* typography */
+.header-title {
+  color: var(--primary-color);
+}
+
+/* Utils */
+
+.t-center {
+  text-align: center;
+}

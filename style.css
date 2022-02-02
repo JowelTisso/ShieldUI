@@ -4,6 +4,21 @@
 
 /* Generic */
 
+:root {
+  --primary-color: #ff6363;
+  --secondary-color: #ffab76;
+  --shade-1: #fffda2;
+  --shade-2: #baffb4;
+  --shade-2-1: #4ade80;
+  --text-color: #353749;
+  --bg-color: #fafafa;
+  --border-color: #d1cece;
+  --primary-color-shade-1: #fecaca;
+  --green-color: #4ade80;
+  --gray-color: #d1cece;
+  --red-color: #ff6363;
+}
+
 * {
   font-family: "Noto Sans", sans-serif;
   margin: 0;
@@ -15,6 +30,11 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  /* padding-top: 5rem; */
 }
 
 /* Container */
@@ -35,6 +55,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: var(--bg-color);
 }
 
 /* typography */
@@ -92,7 +113,7 @@ html {
 .code-snippet {
   border: 1px solid var(--border-color);
   border-radius: 5px;
-  padding: 2rem 2rem 0 2rem;
+  padding-top: 2rem;
   transform: scale(1);
   overflow: auto;
 }

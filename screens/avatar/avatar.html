@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avatar</title>
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="avatar.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -15,8 +16,173 @@
     />
   </head>
   <body>
-    <header class="header-container pd-2x">
-      <i class="fas fa-shield-alt shield-icon fa-4x"></i>
+    <header class="header-container pd-5x pd-b-1x">
+      <div class="logo-container">
+        <i class="fas fa-shield-alt shield-icon fa-4x"></i>
+        <a
+          class="h3 mg-l-2x pointer header-title no-deco"
+          href="../../index.html"
+          >Shield UI</a
+        >
+      </div>
     </header>
+    <div class="content-wrapper">
+      <aside class="sidenav pd-l-5x pd-t-2x">
+        <nav>
+          <ul class="no-bullet">
+            <li>
+              <p class="t3 mg-b-2x">Components</p>
+            </li>
+            <li class="mg-t-3x">
+              <a class="side-nav-item t4" href="#" rel="noopener noreferrer"
+                >Avatar</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/chips/chips.html"
+                rel="noopener noreferrer"
+                >Badge</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/drawer/drawer.html"
+                rel="noopener noreferrer"
+                >Alert</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/header/header.html"
+                rel="noopener noreferrer"
+                >Button</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/badge/badge.html"
+                rel="noopener noreferrer"
+                >Card</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/snackbar/snackbar.html"
+                rel="noopener noreferrer"
+                >Image</a
+              >
+            </li>
+            <li class="mg-t-3x">
+              <a
+                class="side-nav-item t4"
+                href="components/dialogs/dialogs.html"
+                rel="noopener noreferrer"
+                >Input</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="content pd-l-5x">
+        <p class="t3">Avatar</p>
+        <div class="pd-t-5x">
+          <div class="avatar-container mg-r-3x">
+            <img
+              src="../../assets/avatar.jpg"
+              alt="avatar"
+              class="avatar avatar-l"
+            />
+            <p class="t4 t-center">large</p>
+          </div>
+          <div class="avatar-container mg-r-3x">
+            <img
+              src="../../assets/avatar.jpg"
+              alt="avatar"
+              class="avatar avatar-m"
+            />
+            <p class="t4 t-center">medium</p>
+          </div>
+          <div class="avatar-container">
+            <img
+              src="../../assets/avatar.jpg"
+              alt="avatar"
+              class="avatar avatar-s"
+            />
+            <p class="t4 t-center">small</p>
+          </div>
+        </div>
+        <p class="t4 mg-t-5x wd-6x">
+          Avatar has 3 sizes large, medium and small and can be used as
+          avatar-l, avatar-m, avatar-s respectively. The usage is shown in the
+          following snippet.
+        </p>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=184%25&si=false&es=2x&wm=false&code=%252F%252FLarge%2520avatar%250A%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-l%2522%2520%252F%253E%250A%2520%2520%250A%252F%252FMedium%2520avatar%250A%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-m%2522%2520%252F%253E%250A%2520%2520%250A%252F%252FSmall%2520avatar%250A%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-s%2522%2520%252F%253E%250A%2520%2520%250A"
+          style="
+            width: 83rem;
+            height: 30rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+          class="mg-t-4x code-snippet"
+        >
+        </iframe>
+        <p class="t3 mg-t-5x">Avatar with status</p>
+        <div class="pd-t-5x">
+          <div class="avatar-container mg-r-3x">
+            <div class="avatar-status-container">
+              <img
+                src="../../assets/avatar.jpg"
+                alt="avatar"
+                class="avatar avatar-l"
+              />
+              <div class="avatar-status avatar-online"></div>
+            </div>
+            <p class="t4 t-center">online</p>
+          </div>
+          <div class="avatar-container mg-r-3x">
+            <div class="avatar-status-container">
+              <img
+                src="../../assets/avatar.jpg"
+                alt="avatar"
+                class="avatar avatar-m"
+              />
+              <div class="avatar-status avatar-offline"></div>
+            </div>
+            <p class="t4 t-center">offline</p>
+          </div>
+          <div class="avatar-container">
+            <div class="avatar-status-container">
+              <img
+                src="../../assets/avatar.jpg"
+                alt="avatar"
+                class="avatar avatar-s"
+              />
+              <div class="avatar-status avatar-dnd"></div>
+            </div>
+            <p class="t4 t-center">dnd</p>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=184%25&si=false&es=2x&wm=false&code=%252F%252Fonline%2520avatar%250A%253Cdiv%2520class%253D%2522avatar-status-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-l%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avatar-status%2520avatar-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+          style="
+            width: 83rem;
+            height: 25rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+          class="mg-t-4x code-snippet"
+        >
+        </iframe>
+      </main>
+    </div>
   </body>
 </html>
