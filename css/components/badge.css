@@ -19,7 +19,7 @@
   padding: 2px;
   color: var(--secondary-text-color);
   position: absolute;
-  right: 0px;
+  right: -2px;
   bottom: 2px;
   font-size: 1.3rem;
   color: var(--text-color-2);
@@ -27,6 +27,38 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Type */
+
+.bdg-ic {
+  right: -10px;
+  bottom: -5px;
+}
+
+/* Position */
+/* Standard */
+
+.bdg-t {
+  right: 0px;
+  top: 2px;
+}
+.bdg-b {
+  right: 0px;
+  bottom: 2px;
+}
+
+/* Position */
+/* With icon */
+.bdg-ic-t {
+  right: -10px;
+  top: -5px;
+}
+.bdg-ic-b {
+  right: -10px;
+  bottom: -5px;
+}
+
+/* Size */
 
 .bdg-s {
   width: 1.8rem;
@@ -46,16 +78,4 @@
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-}
-
-.bdg-pri {
-  background-color: var(--primary-badge-bg-color);
-}
-
-.bdg-war {
-  background-color: var(--warning-badge-bg-color);
-}
-
-.bdg-dan {
-  background-color: var(--danger-badge-bg-color);
 }
