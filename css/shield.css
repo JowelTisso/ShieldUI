@@ -3,3 +3,8 @@
 @import url(./margin.css);
 @import url(./padding.css);
 @import url(./typography.css);
+@import url(./utils.css);
+
+/* Components */
+@import url(./components/avatar.css);
+@import url(./components/badge.css);

@@ -4,6 +4,23 @@
 
 /* Generic */
 
+:root {
+  --primary-color: #ff6363;
+  --secondary-color: #ffab76;
+  --shade-1: #fffda2;
+  --shade-2: #baffb4;
+  --shade-2-1: #4ade80;
+  --text-color: #353749;
+  --text-color-2: #fafafa;
+  --bg-color: #fafafa;
+  --border-color: #d1cece;
+  --primary-color-2: #fecaca;
+  --green-color: #4ade80;
+  --gray-color: #d1cece;
+  --red-color: #ff6363;
+  --hightlight-color: #14b8a6;
+}
+
 * {
   font-family: "Noto Sans", sans-serif;
   margin: 0;
@@ -15,6 +32,11 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  /* padding-top: 5rem; */
 }
 
 /* Container */
@@ -35,6 +57,29 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  background-color: var(--bg-color);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  width: 30rem;
+  height: 80vh;
+  background-color: var(--bg-color);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  height: 80vh;
+  width: 100%;
+  overflow: auto;
 }
 
 /* typography */
@@ -42,6 +87,10 @@ html {
 .hero-heading {
   color: var(--primary-color);
   font-size: 6rem;
+}
+
+.header-title {
+  color: var(--primary-color);
 }
 
 /* Icon */
@@ -57,12 +106,14 @@ html {
   height: 50px;
   border-radius: 5px;
   font-size: 2rem;
+  padding: 1rem 2rem;
 }
 
 .btn-primary {
   background-color: var(--bg-color);
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -81,6 +132,21 @@ html {
   color: var(--bg-color);
 }
 
+/* links */
+
+.side-nav-item {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  width: 15rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.side-nav-item:hover {
+  background-color: var(--primary-color-2);
+  color: var(--primary-color);
+}
+
 /* Utils */
 
 .pointer {
@@ -90,7 +156,22 @@ html {
 .code-snippet {
   border: 1px solid var(--border-color);
   border-radius: 5px;
-  padding: 2rem 2rem 0 2rem;
+  padding-top: 2rem;
   transform: scale(1);
   overflow: auto;
+}
+
+.hightlight {
+  background-color: var(--hightlight-color);
+  color: var(--text-color-2);
+  padding: 0 1rem;
+  border-radius: 3px;
+}
+
+.in-bl {
+  display: inline-block;
+}
+
+.t-center {
+  text-align: center;
 }

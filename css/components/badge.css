@@ -1,0 +1,81 @@
+/* Generic */
+:root {
+  --primary-badge-bg-color: #0ea5e9;
+  --warning-badge-bg-color: #f97316;
+  --danger-badge-bg-color: #ef4444;
+}
+
+/* Container */
+.badge-container {
+  position: relative;
+  display: inline-block;
+}
+
+.badge {
+  background-color: var(--primary-badge-bg-color);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  padding: 2px;
+  color: var(--secondary-text-color);
+  position: absolute;
+  right: -2px;
+  bottom: 2px;
+  font-size: 1.3rem;
+  color: var(--text-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Type */
+
+.bdg-ic {
+  right: -10px;
+  bottom: -5px;
+}
+
+/* Position */
+/* Standard */
+
+.bdg-t {
+  right: 0px;
+  top: 2px;
+}
+.bdg-b {
+  right: 0px;
+  bottom: 2px;
+}
+
+/* Position */
+/* With icon */
+.bdg-ic-t {
+  right: -10px;
+  top: -5px;
+}
+.bdg-ic-b {
+  right: -10px;
+  bottom: -5px;
+}
+
+/* Size */
+
+.bdg-s {
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.bdg-m {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.bdg-l {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
