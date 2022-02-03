@@ -1,7 +1,15 @@
-/* Alert */
-
 :root {
+  /* Alert */
+
   --success-color: #86efac;
   --warning-color: #fde047;
   --danger-color: #f87171;
+
+  /* Button */
+
+  --primary-btn-color: #22d3ee;
+  --primary-btn-color-2: #67e8f9;
+  --primary-btn-color-3: #09bfdf;
+  --secondary-btn-color: #fb7185;
+  --text-color: #fafafa;
 }
