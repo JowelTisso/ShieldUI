@@ -14,7 +14,7 @@
   --text-color-2: #fafafa;
   --bg-color: #fafafa;
   --border-color: #d1cece;
-  --primary-color-shade-1: #fecaca;
+  --primary-color-2: #fecaca;
   --green-color: #4ade80;
   --gray-color: #d1cece;
   --red-color: #ff6363;
@@ -60,11 +60,37 @@ body {
   background-color: var(--bg-color);
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenav {
+  width: 30rem;
+  height: 80vh;
+  background-color: var(--bg-color);
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  height: 80vh;
+  width: 100%;
+  overflow: auto;
+}
+
 /* typography */
 
 .hero-heading {
   color: var(--primary-color);
   font-size: 6rem;
+}
+
+.header-title {
+  color: var(--primary-color);
 }
 
 /* Icon */
@@ -106,6 +132,21 @@ body {
   color: var(--bg-color);
 }
 
+/* links */
+
+.side-nav-item {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  width: 15rem;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.side-nav-item:hover {
+  background-color: var(--primary-color-2);
+  color: var(--primary-color);
+}
+
 /* Utils */
 
 .pointer {
@@ -125,4 +166,12 @@ body {
   color: var(--text-color-2);
   padding: 0 1rem;
   border-radius: 3px;
+}
+
+.in-bl {
+  display: inline-block;
+}
+
+.t-center {
+  text-align: center;
 }
