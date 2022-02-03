@@ -1,1 +1,7 @@
+/* Alert */
 
+:root {
+  --success-color: #86efac;
+  --warning-color: #fde047;
+  --danger-color: #f87171;
+}

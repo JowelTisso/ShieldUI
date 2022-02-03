@@ -1,0 +1,21 @@
+/* Container */
+.alert {
+  width: 40rem;
+  height: 4rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+  font-size: 1.5rem;
+  background-color: var(--success-color);
+}
+
+.alert-success {
+  background-color: var(--success-color);
+}
+.alert-warning {
+  background-color: var(--warning-color);
+}
+.alert-danger {
+  background-color: var(--danger-color);
+}
