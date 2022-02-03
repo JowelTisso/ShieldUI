@@ -11,12 +11,14 @@
   --shade-2: #baffb4;
   --shade-2-1: #4ade80;
   --text-color: #353749;
+  --text-color-2: #fafafa;
   --bg-color: #fafafa;
   --border-color: #d1cece;
   --primary-color-shade-1: #fecaca;
   --green-color: #4ade80;
   --gray-color: #d1cece;
   --red-color: #ff6363;
+  --hightlight-color: #14b8a6;
 }
 
 * {
@@ -116,4 +118,11 @@ body {
   padding-top: 2rem;
   transform: scale(1);
   overflow: auto;
+}
+
+.hightlight {
+  background-color: var(--hightlight-color);
+  color: var(--text-color-2);
+  padding: 0 1rem;
+  border-radius: 3px;
 }
