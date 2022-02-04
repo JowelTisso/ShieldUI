@@ -109,25 +109,25 @@ body {
   padding: 1rem 2rem;
 }
 
-.btn-primary {
+.btn-primary-doc {
   background-color: var(--bg-color);
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.btn-primary:hover {
+.btn-primary-doc:hover {
   background-color: var(--primary-color);
   color: var(--bg-color);
 }
 
-.btn-secondary {
+.btn-secondary-doc {
   background-color: var(--shade-2);
   border: 2px solid var(--shade-2);
   color: var(--text-color);
 }
 
-.btn-secondary:hover {
+.btn-secondary-doc:hover {
   background-color: var(--shade-2-1);
   color: var(--bg-color);
 }

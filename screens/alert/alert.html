@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert</title>
+    <link rel="stylesheet" href="../../common-style.css" />
+    <link rel="stylesheet" href="alert-doc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header-container pd-5x pd-bottom-1x">
+      <div class="logo-container">
+        <i class="fas fa-shield-alt shield-icon fa-4x"></i>
+        <a
+          class="h3 mg-left-2x pointer header-title no-deco"
+          href="../../index.html"
+          >Shield UI</a
+        >
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <aside class="sidenav pd-left-5x pd-top-2x">
+        <nav>
+          <ul class="no-bullet">
+            <li>
+              <p class="t3 mg-bottom-2x">Components</p>
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../avatar/avatar.html"
+                rel="noopener noreferrer"
+                >Avatar</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../badge/badge.html"
+                rel="noopener noreferrer"
+                >Badge</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a class="side-nav-item t4" href="#" rel="noopener noreferrer"
+                >Alert</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../button/button.html"
+                rel="noopener noreferrer"
+                >Button</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../card/card.html"
+                rel="noopener noreferrer"
+                >Card</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../image/image.html"
+                rel="noopener noreferrer"
+                >Image</a
+              >
+            </li>
+            <li class="mg-top-3x">
+              <a
+                class="side-nav-item t4"
+                href="../input/input.html"
+                rel="noopener noreferrer"
+                >Input</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="content pd-left-5x">
+        <!-- *************************** -->
+        <!-- Alert description and usage -->
+
+        <p class="t3">Alert</p>
+        <p class="t4 wd-6x mg-top-2x">
+          Alert is to inform the user with important message.
+        </p>
+
+        <p class="t4 mg-top-4x">Individual usage</p>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Falert.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Falert.css%2522%29%250A"
+          style="
+            width: 83rem;
+            height: 22rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+          class="mg-top-2x code-snippet"
+        >
+        </iframe>
+
+        <!-- Alert description and usage -->
+        <!-- *************************** -->
+
+        <!-- ************************ -->
+        <!-- Alert standard and usage -->
+
+        <div class="pd-top-5x">
+          <p class="alert alert-success mg-top-2x">
+            This a success alert message
+          </p>
+          <p class="alert alert-warning mg-top-2x">
+            This a warning alert message
+          </p>
+          <p class="alert alert-danger mg-top-2x">
+            This a danger alert message
+          </p>
+        </div>
+
+        <p class="t4 mg-top-5x wd-6x">
+          There are three types of alert which are success, warning and danger.
+          The usage is shown in the folling snippet.
+        </p>
+
+        <p class="t4 mg-top-4x">
+          Default :<span class="hightlight mg-left-2x">sucess</span>
+        </p>
+
+        <p class="t4 mg-top-3x">
+          Container class :
+          <span class="hightlight mg-left-2x">alert</span>
+        </p>
+
+        <p class="t4 mg-top-3x">
+          Type class : <span class="hightlight mg-left-2x">alert-success</span
+          ><span class="hightlight mg-left-2x">alert-warning</span
+          ><span class="hightlight mg-left-2x">alert-danger</span>
+        </p>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%252F%252Fsuccess%2520alert%250A%253Cp%2520class%253D%2522alert%2520alert-success%2522%253EThis%2520a%2520success%2520alert%2520message%253C%252Fp%253E%250A%2520%250A%252F%252Fwarning%2520alert%250A%253Cp%2520class%253D%2522alert%2520alert-warning%2520%2522%253EThis%2520a%2520warning%2520alert%2520message%253C%252Fp%253E%250A%250A%252F%252Fdanger%2520alert%250A%253Cp%2520class%253D%2522alert%2520alert-danger%2522%253EThis%2520a%2520danger%2520alert%2520message%253C%252Fp%253E%250A"
+          style="
+            width: 83rem;
+            height: 28rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+          class="mg-top-4x code-snippet"
+        >
+        </iframe>
+
+        <!-- Alert standard and usage -->
+        <!-- ************************ -->
+      </main>
+    </div>
+  </body>
+</html>
