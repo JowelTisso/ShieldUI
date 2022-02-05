@@ -1,0 +1,41 @@
+/* Container */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+}
+
+/* Elements */
+
+.input-label {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.input-simple {
+  padding: 1rem 1.5rem;
+  height: 4rem;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 2px solid var(--border-color);
+  font-size: 1.3rem;
+}
+
+/* Validation */
+
+.input-val {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.val-success {
+  color: var(--success-color);
+}
+.val-warn {
+  color: var(--warning-color);
+}
+.val-error {
+  color: var(--danger-color);
+}
