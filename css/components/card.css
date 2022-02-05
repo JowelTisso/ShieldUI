@@ -1,0 +1,144 @@
+/* Container */
+.card {
+  width: 25rem;
+  border-radius: 5px;
+  margin: 1rem;
+  height: fit-content;
+  position: relative;
+}
+
+.card-content {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.card-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn-secondary-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Element */
+.card-img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 25rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+/* typography */
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card-sub-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-description {
+  font-size: 1.3rem;
+}
+
+/* Type */
+
+/* Badge */
+.card-badge {
+  position: absolute;
+  right: -10px;
+  top: 10px;
+  background-color: var(--warning-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+}
+
+/* Dismiss */
+.card-dismiss {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--text-color-2);
+  padding: 1rem;
+}
+
+/* Overlay */
+.txt-overlay-container {
+  position: relative;
+}
+
+.txt-overlay {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background-color: rgba(59, 52, 52, 0.4);
+}
+
+.txt-overlay p {
+  color: var(--text-color-2);
+}
+
+.txt-overlay .card-sub-title {
+  margin: 0;
+}
+
+/* Only text */
+
+.card-only-text {
+  border: 1px solid var(--border-color);
+  min-width: 30rem;
+}
+
+/* Card horizontal */
+
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  min-width: 50rem;
+  background-color: var(--bg-color);
+}
+
+.card-img-horizontal {
+  height: 100%;
+  width: 25rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-content-horizontal {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card-content-horizontal .card-content {
+  flex-grow: 1;
+  padding-left: 0;
+}
+
+.card-content-horizontal .card-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Card with shadow */
+
+.card-shadow {
+  box-shadow: 1px 2px 5px 2px rgb(201, 199, 199);
+  width: min-content;
+  padding: 1rem;
+}

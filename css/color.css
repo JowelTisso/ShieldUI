@@ -7,9 +7,15 @@
 
   /* Button */
 
-  --primary-btn-color: #22d3ee;
-  --primary-btn-color-2: #67e8f9;
-  --primary-btn-color-3: #09bfdf;
+  --primary-btn-color: #f14b4b;
+  --primary-btn-color-2: #f87171;
+  --primary-btn-color-3: #dc2626;
   --secondary-btn-color: #fb7185;
   --text-color: #fafafa;
+
+  /* Card */
+  --border-color: #d1cece;
+
+  /* background */
+  --bg-color: #fafafa;
 }
