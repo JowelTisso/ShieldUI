@@ -1,0 +1,14 @@
+.list {
+  list-style-type: none;
+  display: flex;
+}
+
+.list-stacked {
+  flex-direction: column;
+}
+
+.list-item {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: var(--bg-light-color);
+}
