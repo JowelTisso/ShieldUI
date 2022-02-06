@@ -1,0 +1,63 @@
+/* Container */
+.snackbar {
+  background-color: var(--sb-primary-color);
+  width: 45rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 35%;
+  flex-wrap: wrap;
+  visibility: hidden;
+  z-index: 1;
+}
+
+/* Type */
+
+.sb-leading {
+  left: 5rem;
+}
+
+/* Elements */
+.snackbar-action-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  color: var(--sb-cta-color);
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.snackbar-action-btn:hover {
+  background-color: var(--sb-primary-color-2x);
+}
+
+.snackbar-close-btn {
+  color: var(--sb-secondary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.snackbar-close-btn:hover {
+  background-color: var(--sb-primary-color-2x);
+}
+
+/* Typography */
+
+.snackbar-msg {
+  color: var(--sb-secondary-color);
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
