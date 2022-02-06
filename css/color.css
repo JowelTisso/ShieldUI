@@ -12,10 +12,12 @@
   --primary-btn-color-3: #dc2626;
   --secondary-btn-color: #fb7185;
   --text-color: #fafafa;
+  --text-gray-color: #475569;
 
   /* Card */
   --border-color: #d1cece;
 
   /* background */
   --bg-color: #fafafa;
+  --bg-light-color: #f5f2f2;
 }

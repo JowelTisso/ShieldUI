@@ -11,3 +11,7 @@
 .wd-6x {
   width: 60rem;
 }
+
+.bg-light {
+  background-color: var(--bg-light-color);
+}
