@@ -1,0 +1,11 @@
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hide-modal {
+  visibility: hidden;
+}
+.show-modal {
+  visibility: visible;
+}
