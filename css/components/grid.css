@@ -1,0 +1,31 @@
+/* Container */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Utils */
+
+.gap-1x {
+  gap: 1rem;
+}
+.gap-2x {
+  gap: 2rem;
+}
+.gap-3x {
+  gap: 3rem;
+}
+.gap-4x {
+  gap: 4rem;
+}
+.gap-5x {
+  gap: 5rem;
+}
