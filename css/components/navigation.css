@@ -1,0 +1,23 @@
+/* Container */
+
+.nav-container {
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+}
+
+.nav-link {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
