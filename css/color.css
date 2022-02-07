@@ -21,4 +21,10 @@
   --bg-color: #fafafa;
   --bg-light-color: #f5f2f2;
   --backdrop-color: rgba(44, 43, 43, 0.5);
+
+  /* Snackbar */
+  --sb-primary-color: #334155;
+  --sb-secondary-color: #f8fafc;
+  --sb-cta-color: #a78bfa;
+  --sb-primary-color-2x: #64748b;
 }

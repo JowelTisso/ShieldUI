@@ -1,0 +1,12 @@
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hide-snackbar {
+  visibility: hidden;
+}
+
+.show-snackbar {
+  visibility: visible;
+}
