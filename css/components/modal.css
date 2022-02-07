@@ -1,0 +1,28 @@
+/* Container */
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-backdrop {
+  background-color: var(--backdrop-color);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.modal-content {
+  z-index: 2;
+  background-color: var(--bg-color);
+  padding: 2rem;
+  border-radius: 10px;
+}
