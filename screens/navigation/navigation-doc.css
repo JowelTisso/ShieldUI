@@ -1,0 +1,23 @@
+/* Container */
+.header {
+  display: flex;
+  width: 90%;
+  background-color: var(--primary-color);
+  align-items: center;
+  height: 5rem;
+  padding-left: 2rem;
+}
+
+.header-icon-white {
+  color: var(--text-color-2);
+}
+
+.header-title {
+  color: var(--text-color-2);
+  font-weight: normal;
+  margin-left: 2rem;
+}
+
+.header a {
+  color: var(--text-color-2);
+}
