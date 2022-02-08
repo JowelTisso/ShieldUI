@@ -97,6 +97,10 @@ body {
   background-color: var(--bg-light-color);
 }
 
+.footer-container p {
+  text-align: center;
+}
+
 /* typography */
 
 .hero-heading {
@@ -207,7 +211,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   /* Landing Page */
 
   .btn-container {

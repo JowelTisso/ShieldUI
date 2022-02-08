@@ -12,10 +12,11 @@
   color: var(--text-color-2);
 }
 
-.header-title {
+.header-title-2 {
   color: var(--text-color-2);
   font-weight: normal;
   margin-left: 2rem;
+  font-size: 1.7rem;
 }
 
 .header a {
@@ -24,12 +25,12 @@
 
 /* Responsive */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .header {
     width: 100%;
   }
 
-  .header-title {
+  .header-title-2 {
     display: none;
   }
 }
