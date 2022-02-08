@@ -21,3 +21,15 @@
 .header a {
   color: var(--text-color-2);
 }
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+
+  .header-title {
+    display: none;
+  }
+}

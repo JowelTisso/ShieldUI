@@ -273,4 +273,10 @@ body {
     padding-left: 2.2rem;
     padding-right: 2.2rem;
   }
+
+  /* Utils */
+
+  .wd-6x {
+    width: 100%;
+  }
 }
