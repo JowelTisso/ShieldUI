@@ -51,8 +51,6 @@ body {
   height: fit-content;
   justify-content: center;
   padding-bottom: 10rem;
-  /* display: flex; */
-  /* justify-content: center; */
   width: 65%;
   margin: auto;
 }
@@ -126,6 +124,10 @@ body {
 
 .inst-heading {
   text-align: center;
+}
+
+.header-menu-mb {
+  visibility: hidden;
 }
 
 /* button */
@@ -205,6 +207,8 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  /* Landing Page */
+
   .btn-container {
     display: flex;
     flex-direction: column;
@@ -225,5 +229,34 @@ body {
 
   .code-snippet {
     width: 100%;
+  }
+
+  /* Drawer */
+  .header-menu-mb {
+    visibility: visible;
+    margin-left: auto;
+    padding: 1rem 2rem;
+  }
+
+  .header-menu-mb:active {
+    background-color: var(--gray-color);
+  }
+
+  .header-container {
+    padding: 1.5rem;
+  }
+
+  .sidenav {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
   }
 }
