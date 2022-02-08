@@ -4,7 +4,7 @@ const installSec = document.querySelector("#install-sec");
 btnInstall.addEventListener("click", () => {
   installSec.scrollIntoView({
     behavior: "smooth",
-    block: "end",
-    inline: "nearest",
+    block: "start",
+    inline: "start",
   });
 });

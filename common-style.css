@@ -36,7 +36,6 @@ html {
 
 body {
   background-color: var(--bg-color);
-  /* padding-top: 5rem; */
 }
 
 /* Container */
@@ -49,8 +48,9 @@ body {
 }
 
 .installation {
-  height: 100vh;
+  height: fit-content;
   justify-content: center;
+  padding-bottom: 10rem;
 }
 
 .header-container {
@@ -83,6 +83,14 @@ body {
   overflow: auto;
 }
 
+.footer-container {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-light-color);
+}
+
 /* typography */
 
 .hero-heading {
@@ -98,6 +106,10 @@ body {
 
 .shield-icon {
   color: var(--primary-color);
+}
+
+.git-icon {
+  margin-left: auto;
 }
 
 /* button */
