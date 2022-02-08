@@ -182,6 +182,11 @@ body {
   color: var(--primary-color);
 }
 
+.nav-item-selected {
+  background-color: var(--primary-color-2);
+  color: var(--primary-color);
+}
+
 /* Utils */
 
 .pointer {
@@ -255,6 +260,8 @@ body {
     position: absolute;
     z-index: 1;
     width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
   .hide {
