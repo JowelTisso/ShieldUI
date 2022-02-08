@@ -18,7 +18,7 @@
   --green-color: #4ade80;
   --gray-color: #d1cece;
   --red-color: #ff6363;
-  --hightlight-color: #14b8a6;
+  --highlight-color: #14b8a6;
 }
 
 * {
@@ -201,11 +201,12 @@ body {
   width: fit-content;
 }
 
-.hightlight {
-  background-color: var(--hightlight-color);
+.highlight {
+  background-color: var(--highlight-color);
   color: var(--text-color-2);
   padding: 0 1rem;
   border-radius: 3px;
+  display: inline-flex;
 }
 
 .in-bl {
