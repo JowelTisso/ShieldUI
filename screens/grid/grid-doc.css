@@ -3,3 +3,16 @@
   height: 20rem;
   object-fit: cover;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+  .grid-2 {
+    width: 100%;
+  }
+
+  .img-sm {
+    width: 10rem;
+    height: 10rem;
+  }
+}

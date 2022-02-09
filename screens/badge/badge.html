@@ -25,9 +25,12 @@
           >Shield UI</a
         >
       </div>
+      <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
     </header>
     <div class="content-wrapper">
-      <aside class="sidenav pd-left-5x pd-top-2x">
+      <aside id="drawer" class="sidenav pd-left-5x pd-top-2x hide">
         <nav>
           <ul class="no-bullet">
             <li>
@@ -45,7 +48,10 @@
               >
             </li>
             <li class="mg-top-1x">
-              <a class="side-nav-item t4" href="#" rel="noopener noreferrer"
+              <a
+                class="side-nav-item t4 nav-item-selected"
+                href="#"
+                rel="noopener noreferrer"
                 >Badge</a
               >
             </li>
@@ -161,18 +167,20 @@
         </p>
 
         <p class="t4 mg-top-4x">Individual usage</p>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fbadge.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fbadge.css%2522%29%250A"
-          style="
-            width: 83rem;
-            height: 22rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-2x code-snippet"
-        >
-        </iframe>
+        <div class="mg-top-2x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fbadge.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fbadge.css%2522%29%250A"
+            style="
+              width: 83rem;
+              height: 22rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
         <!-- Badge description and usage -->
         <!-- *************************** -->
@@ -225,37 +233,38 @@
         </p>
 
         <p class="t4 mg-top-4x">
-          Default :<span class="hightlight mg-left-2x">medium</span>
+          Default :<span class="highlight mg-left-2x">medium</span>
         </p>
 
         <p class="t4 mg-top-3x">
           Container class :
-          <span class="hightlight mg-left-2x">badge-container</span>
+          <span class="highlight mg-left-2x">badge-container</span>
         </p>
 
         <p class="t4 mg-top-3x">
-          Type class : <span class="hightlight mg-left-2x">badge</span>
+          Type class : <span class="highlight mg-left-2x">badge</span>
         </p>
 
         <p class="t4 mg-top-3x">
-          Size class : <span class="hightlight mg-left-2x">bdg-l</span
-          ><span class="hightlight mg-left-2x">bdg-m</span
-          ><span class="hightlight mg-left-2x">bdg-s</span>
+          Size class : <span class="highlight mg-left-2x">bdg-l</span
+          ><span class="highlight mg-left-2x">bdg-m</span
+          ><span class="highlight mg-left-2x">bdg-s</span>
         </p>
 
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-l%2522%2520%252F%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-l%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 83rem;
-            height: 20rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-4x code-snippet"
-        >
-        </iframe>
-
+        <div class="mg-top-4x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-l%2522%2520%252F%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-l%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 83rem;
+              height: 20rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
         <!-- Badge standard and usage -->
         <!-- ************************ -->
 
@@ -290,23 +299,25 @@
           been used in the example.
         </p>
         <p class="t4 mg-top-4x">
-          Default : <span class="hightlight mg-left-2x">primary</span>
+          Default : <span class="highlight mg-left-2x">primary</span>
         </p>
         <p class="t4 mg-top-3x">
-          Type class : <span class="hightlight mg-left-2x">bdg-ic</span>
+          Type class : <span class="highlight mg-left-2x">bdg-ic</span>
         </p>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-s%2520bdg-ic%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 83rem;
-            height: 20rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-4x code-snippet"
-        >
-        </iframe>
+        <div class="mg-top-4x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-3x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-s%2520bdg-ic%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 83rem;
+              height: 20rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
         <!-- Badge type and usage -->
         <!-- ******************** -->
@@ -360,32 +371,39 @@
         <p class="t4 mg-top-5x wd-6x">
           Badge can be placed on top or at bottom on avatar and icon.
         </p>
+
         <p class="t4 mg-top-4x">
-          Default : <span class="hightlight mg-left-2x">bottom</span>
+          Default : <span class="highlight mg-left-2x">bottom</span>
         </p>
+
         <p class="t4 mg-top-3x">
           Badge on avatar poistion class :
-          <span class="hightlight mg-left-2x">bdg-t</span
-          ><span class="hightlight mg-left-2x">bdg-b</span>
+          <span class="highlight mg-left-2x">bdg-t</span
+          ><span class="highlight mg-left-2x">bdg-b</span>
         </p>
+
         <p class="t4 mg-top-3x">
           Badge on icon poistion class :
-          <span class="hightlight mg-left-2x">bdg-ic-t</span
-          ><span class="hightlight mg-left-2x">bdg-ic-b</span>
+          <span class="highlight mg-left-2x">bdg-ic-t</span
+          ><span class="highlight mg-left-2x">bdg-ic-b</span>
         </p>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%252F%252FBadge%2520on%2520avatar%2520top%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-m%2522%2520%252F%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-l%2520bdg-t%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%252F%252FBadge%2520on%2520icon%2520bottom%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-4x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-m%2520bdg-ic%2520bdg-ic-b%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-          style="
-            width: 83rem;
-            height: 35rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-4x code-snippet"
-        >
-        </iframe>
+
+        <div class="mg-top-4x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%252F%252FBadge%2520on%2520avatar%2520top%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522avatar%2520avatar-m%2522%2520%252F%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-l%2520bdg-t%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%252F%252FBadge%2520on%2520icon%2520bottom%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520fa-4x%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%2520class%253D%2522badge%2520bdg-m%2520bdg-ic%2520bdg-ic-b%2522%253E4%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 83rem;
+              height: 35rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
       </main>
     </div>
+    <script src="../../common.js"></script>
   </body>
 </html>

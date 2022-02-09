@@ -25,9 +25,12 @@
           >Shield UI</a
         >
       </div>
+      <div id="drawer-menu" class="header-menu-mb">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
     </header>
     <div class="content-wrapper">
-      <aside class="sidenav pd-left-5x pd-top-2x">
+      <aside id="drawer" class="sidenav pd-left-5x pd-top-2x hide">
         <nav>
           <ul class="no-bullet">
             <li>
@@ -136,7 +139,10 @@
               >
             </li>
             <li class="mg-top-1x">
-              <a class="side-nav-item t4" href="#" rel="noopener noreferrer"
+              <a
+                class="side-nav-item t4 nav-item-selected"
+                href="#"
+                rel="noopener noreferrer"
                 >Navigation</a
               >
             </li>
@@ -164,18 +170,21 @@
         </p>
 
         <p class="t4 mg-top-4x">Individual usage</p>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fnavigation.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fnavigation.css%2522%29"
-          style="
-            width: 83rem;
-            height: 22rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-2x code-snippet"
-        >
-        </iframe>
+
+        <div class="mg-top-2x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fnavigation.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fnavigation.css%2522%29"
+            style="
+              width: 83rem;
+              height: 22rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
         <!-- Navigation description and usage -->
         <!-- *************************** -->
@@ -188,7 +197,7 @@
             <div class="header-icon-container">
               <i class="fas fa-bars fa-2x header-icon-white"></i>
             </div>
-            <h1 class="header-title">Header navigation</h1>
+            <h1 class="header-title-2">Header navigation</h1>
             <nav class="nav-container">
               <a class="nav-link"> Home </a>
               <a class="nav-link"> Doc </a>
@@ -204,36 +213,38 @@
         </p>
 
         <p class="t4 mg-top-4x">
-          Default :<span class="hightlight mg-left-2x">none</span>
+          Default :<span class="highlight mg-left-2x">none</span>
         </p>
 
         <p class="t4 mg-top-3x">
-          Container class :<span class="hightlight mg-left-2x"
+          Container class :<span class="highlight mg-left-2x"
             >nav-container</span
           >
         </p>
 
         <p class="t4 mg-top-3x">
           Link class :
-          <span class="hightlight mg-left-2x">nav-link</span>
+          <span class="highlight mg-left-2x">nav-link</span>
         </p>
-
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Home%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Doc%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520About%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Contact%2520%253C%252Fa%253E%250A%253C%252Fnav%253E%250A"
-          style="
-            width: 85rem;
-            height: 25rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-          class="mg-top-4x code-snippet"
-        >
-        </iframe>
+        <div class="mg-top-4x code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Home%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Doc%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520About%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522nav-link%2522%253E%2520Contact%2520%253C%252Fa%253E%250A%253C%252Fnav%253E%250A"
+            style="
+              width: 85rem;
+              height: 25rem;
+              transform: scale(1);
+              overflow: hidden;
+              border: none;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
 
         <!-- Navigation and usage -->
         <!-- ************************ -->
       </main>
     </div>
+    <script src="../../common.js"></script>
   </body>
 </html>
