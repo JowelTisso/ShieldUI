@@ -54,11 +54,18 @@
 /* Badge */
 .card-badge {
   position: absolute;
-  right: -10px;
-  top: 10px;
-  background-color: var(--warning-color);
+  right: 5px;
+  top: 5px;
+  background-color: var(--bg-color);
   color: var(--text-color);
-  padding: 0.5rem 1rem;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* Dismiss */
