@@ -1,5 +1,12 @@
-/* Responsive */
+.alert-iframe-individual {
+  height: 22rem;
+}
 
+.alert-iframe {
+  height: 28rem;
+}
+
+/* Responsive */
 @media screen and (max-width: 480px) {
   .alert {
     width: 100%;

@@ -1,3 +1,11 @@
 .slider-container {
   width: 20rem;
 }
+
+.slider-iframe-individual {
+  height: 22rem;
+}
+
+.slider-iframe {
+  height: 12rem;
+}

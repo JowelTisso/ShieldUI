@@ -6,6 +6,15 @@
 .hide-modal {
   visibility: hidden;
 }
+
 .show-modal {
   visibility: visible;
+}
+
+.modal-iframe-individual {
+  height: 22rem;
+}
+
+.modal-iframe {
+  height: 40rem;
 }

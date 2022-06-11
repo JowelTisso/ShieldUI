@@ -23,6 +23,10 @@
   color: var(--text-color-2);
 }
 
+.nav-iframe {
+  height: 22rem;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 640px) {
