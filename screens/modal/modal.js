@@ -1,6 +1,7 @@
 const modal = document.querySelector("#modal");
 const modalBackdrop = document.querySelector("#modal-backdrop");
 const btnShowModal = document.querySelector("#btn-modal");
+const btnDiscardModal = document.querySelector("#btn-discard");
 
 const hideModal = () => {
   if (modal.classList.contains("show-modal")) {
@@ -19,3 +20,4 @@ const showModal = () => {
 };
 
 btnShowModal.addEventListener("click", showModal);
+btnDiscardModal.addEventListener("click", hideModal);

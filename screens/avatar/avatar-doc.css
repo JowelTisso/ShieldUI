@@ -1,1 +1,11 @@
-/* Responsive */
+.avatar-iframe-individual {
+  height: 20rem;
+}
+
+.avatar-iframe {
+  height: 30rem;
+}
+
+.avatar-iframe-status {
+  height: 20rem;
+}

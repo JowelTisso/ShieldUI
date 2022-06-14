@@ -3,3 +3,15 @@
 .btn-fab-container {
   display: flex;
 }
+
+.btn-iframe-individual {
+  height: 22rem;
+}
+
+.btn-iframe {
+  height: 20rem;
+}
+
+.btn-iframe-icon {
+  height: 30rem;
+}

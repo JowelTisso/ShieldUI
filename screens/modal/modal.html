@@ -183,13 +183,7 @@
         <div class="mg-top-2x code-snippet">
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%2520%252F%252Fhtml_import%250A%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fmodal.css%2522%2520%252F%253E%250A%2520%250A%2520%252F%252Fcss_import%250A%2520%2540import%2520url%28%2522https%253A%252F%252Fshieldui.netlify.app%252Fcss%252Fcomponents%252Fmodal.css%2522%29"
-            style="
-              width: 83rem;
-              height: 22rem;
-              transform: scale(1);
-              overflow: hidden;
-              border: none;
-            "
+            class="modal-iframe-individual"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
@@ -211,8 +205,10 @@
                 This is description for the modal container
               </p>
               <div class="btn-container">
-                <button class="btn btn-primary">CANCEL</button>
-                <button class="btn btn-secondary">DISCARD</button>
+                <button class="btn btn-primary">SAVE</button>
+                <button id="btn-discard" class="btn btn-secondary">
+                  DISCARD
+                </button>
               </div>
             </div>
           </div>
@@ -242,13 +238,7 @@
         <div class="mg-top-4x code-snippet">
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=800&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=159%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2520hide-modal%2522%253E%250A%2520%2520%253Cdiv%2520id%253D%2522modal-backdrop%2522%2520class%253D%2522modal-backdrop%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522t4%2520fw-4x%2522%253EDiscard%2520draft%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522t4%2520mg-top-4x%2520mg-bottom-4x%2522%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520description%2520for%2520the%2520modal%2520container%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ECANCEL%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EDISCARD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-            style="
-              width: 85rem;
-              height: 40rem;
-              transform: scale(1);
-              overflow: hidden;
-              border: none;
-            "
+            class="modal-iframe"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>

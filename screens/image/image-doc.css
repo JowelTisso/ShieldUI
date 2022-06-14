@@ -1,7 +1,12 @@
 .img-container {
   width: 80%;
 }
+
 .img-rounded-container {
   width: 30rem;
   height: 30rem;
+}
+
+.img-iframe {
+  height: 18rem;
 }

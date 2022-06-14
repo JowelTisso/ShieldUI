@@ -1,1 +1,7 @@
-/* Generic */
+.card-iframe-individual {
+  height: 22rem;
+}
+
+.card-iframe {
+  height: 35rem;
+}

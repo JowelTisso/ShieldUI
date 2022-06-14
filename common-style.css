@@ -12,7 +12,7 @@
   --shade-2-1: #4ade80;
   --text-color: #353749;
   --text-color-2: #fafafa;
-  --bg-color: #fafafa;
+  --bg-color: #ffff;
   --border-color: #d1cece;
   --primary-color-2: #fecaca;
   --green-color: #4ade80;
@@ -215,6 +215,22 @@ body {
 
 .t-center {
   text-align: center;
+}
+
+iframe {
+  width: 85rem;
+  height: 14rem;
+  transform: scale(1);
+  overflow: auto;
+  border: none;
+}
+
+.home-iframe {
+  height: 14rem;
+}
+
+.home-iframe-font {
+  height: 30rem;
 }
 
 @media screen and (max-width: 800px) {

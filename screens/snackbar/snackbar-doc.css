@@ -10,3 +10,7 @@
 .show-snackbar {
   visibility: visible;
 }
+
+.snackbar-iframe {
+  height: 22rem;
+}
